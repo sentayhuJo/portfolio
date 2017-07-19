@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css?family=Copse|Orbitron');
+
+body {
+	font-family: 'Copse', serif;
+	line-height: 1.3em;
+	font-size: 16px;
+	margin: 0;
+	padding: 25px 0 50px 0;
+	font-family: 'Georgia', serif;
+	background: #090b50 url(images/stars.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+
+article {
+	margin: 0 20px 0 20px;
+	color: rgba(255,255,255,.7);
+	padding: 30px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.5);
+}
+article p::first-letter{
+	font-family: 'Copse', serif;
+	font-size: 2em;
+}
+h1 {
+	font-size: 1.8em;
+	margin: 0 0 20px 0;
+	color: #fff;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 2px;
+}
+
+span {
+	font-weight: bold;
+	color: #ADFF2F;
+}
