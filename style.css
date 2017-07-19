@@ -1,37 +1,104 @@
-
-@import url('https://fonts.googleapis.com/css?family=Copse|Orbitron');
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-	font-family: 'Copse', serif;
-	line-height: 1.3em;
-	font-size: 16px;
-	margin: 0;
-	padding: 25px 0 50px 0;
-	font-family: 'Georgia', serif;
-	background: #090b50 url(images/stars.jpg) no-repeat 0 0;
-	background-size: cover;
+  font: 16px Helvetica, Sans-Serif;
+  line-height: 24px;
+  background: url(images/noise.jpg);
 }
 
-article {
-	margin: 0 50px 0 50px;
-	color: rgba(255,255,255,.7);
-	padding: 30px;
-	border-radius: 20px;
-	background-color: rgba(0,0,0,.5);
+.clear {
+  clear: both;
 }
-article p::first-letter{
-	font-family: 'Copse', serif;
-	font-size: 2em;
+
+#page-wrap {
+  width: 800px;
+  margin: 40px auto 60px;
 }
+
+#pic {
+  float: right;
+  margin: -30px 0 0 0;
+  width: 250px;
+}
+
 h1 {
-	font-size: 1.8em;
-	margin: 0 0 20px 0;
-	color: #fff;
-	font-family: 'Orbitron', sans-serif;
-	letter-spacing: 2px;
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #999;
 }
 
-span {
-	font-weight: bold;
-	color: #ADFF2F;
+h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+h2 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  color: black;
+}
+
+ul {
+  margin: 0 0 32px 17px;
+}
+
+#objective {
+  width: 500px;
+  float: left;
+}
+
+#objective p {
+  font-family: Georgia, Serif;
+  font-style: italic;
+  color: #666;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  float: left;
+  height: 100px;
+  border-right: 1px solid #999;
+}
+
+dd {
+  width: 600px;
+  float: right;
+}
+
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
 }
