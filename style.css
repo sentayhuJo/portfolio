@@ -80,6 +80,11 @@ ul {
   color: #666;
 }
 
+#objective p::first-letter{
+  font-family: Georgia, Serif;
+  font-size: 3em;
+}
+
 dt {
   font-style: italic;
   font-weight: bold;
@@ -101,4 +106,7 @@ dd.clear {
   float: none;
   margin: 0;
   height: 15px;
+}
+span{
+  font-weight: bold;
 }
